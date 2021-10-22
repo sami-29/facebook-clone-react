@@ -1,0 +1,71 @@
+.whatsnew-container {
+    width: $feed-width;
+    margin-left: $feed-margin-left;
+    margin-top: 40px;
+    border-radius: 10px;
+    height: 120px;
+    background-color: $elements-color;
+    position: relative;
+}
+
+.whatsnew-whatsnew {
+    margin-left: 5%;
+    width: 90%;
+    height: 50%;
+    border-bottom: 1px rgb(68, 67, 67) solid;
+
+    img {
+        border-radius: 50%;
+        height: 43px;
+        cursor: pointer;
+    }
+
+    display: flex;
+    align-items: center;
+
+}
+
+.whatsnew-special-button {
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    margin-left: 12px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.whatsnew-buttons {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.long {
+    border-radius: 6px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 29%;
+    background-color: $elements-color;
+    margin-right: 3%;
+
+    &:hover {
+        background-color: $btn-color;
+    }
+
+    img {
+        border-radius: 50px;
+        max-width: 77%;
+        max-height: 77%;
+    }
+
+    .svg-color {
+        filter: none;
+    }
+}

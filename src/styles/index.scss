@@ -1,0 +1,35 @@
+@import './variables';
+@import './resets';
+@import './fonts';
+@import './navigation';
+@import './posts';
+@import './stories';
+@import './whatsnew';
+@import './createsalon';
+
+body {
+    background-color: $bg-color;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.main-container {
+    width: 650px;
+}
+.msg {
+    bottom: 18px;
+    right: 32px;
+    width: 47px;
+    height: 47px;
+}
+
+img {
+
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.svg-color {
+    filter: invert(75%);
+}

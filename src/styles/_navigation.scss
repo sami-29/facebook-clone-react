@@ -1,0 +1,97 @@
+.nav-container {
+    width: 100%;
+    height: 55px;
+    background-color: $nav-color;
+    border-bottom-color: $border-color;
+    border-bottom-width: 1px;
+    border-bottom-style: groove;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo {
+    margin-left: 16px;
+    margin-top: 1px;
+    height: 40px;
+    width: 40px;
+
+    img {
+        filter: none;
+    }
+}
+
+.nav-button {
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search:hover {
+    background-color: $btn-color !important;
+}
+
+.basic {
+    height: 40px;
+    width: 40px;
+    margin-left: 8px;
+    background-color: $btn-color;
+    position: relative;
+
+    &:hover {
+        background-color: $btn-color-hover;
+    }
+
+    img {
+        border-radius: 50%;
+        max-width: 50%;
+        max-height: 50%;
+    }
+}
+
+.fixed {
+    position: fixed;
+}
+
+.square {
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    background-color: $nav-color;
+
+    &:hover {
+        background-color: $btn-color-hover;
+    }
+
+
+}
+
+.nav-right-container {
+    display: flex;
+    position: absolute;
+    right: 15px;
+}
+
+.first {
+    margin-left: 30px;
+}
+
+.notificationNumber{
+    position: absolute;
+    top: -4px;
+    right: -2px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: rgb(218, 88, 88);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
